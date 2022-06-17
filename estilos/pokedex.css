@@ -1,22 +1,24 @@
 @import url(./header.css);
 @import url(./footer.css);
+@import url(./reset.css);
 
 .body{
-  background: black;
+  background: var(--black);
   font-family: 'architectsDaughter';
   font-weight: bold;
   font-size: larger;
 }
 
 .container-main{
-  background-color: black;
+  background-color: var(--black);
   display: flex;
   flex-direction: column;
+  height: auto;
 }
 
 .filters{
-  background-color: white;
-  border-top: 4px solid snow;
+  background-color: var(--white);
+  border-top: 4px solid var(--snow);
   padding: 1%;
   display: flex;
   flex-direction: row;
@@ -26,7 +28,7 @@
 
 .filter-options{
   font-family: 'spaceMono';
-  border-color: black;
+  border-color: var(--black);
   border: solid;
   border-radius: 7px;
   text-align: center;
@@ -38,17 +40,10 @@
 }
 
 .main{
-  height: auto;
+  height: 77vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.paragraph-big{
-  padding: 10px;
-  padding-top: 1%;
-  margin: auto;
-  text-justify: auto;
 }
 
 .mysterious-pokemon{
@@ -67,7 +62,7 @@
 .big-card{
   margin-right: 1%;
   width: 46vw;
-  height:  70vh;
+  height: 99%;
   background: var(--cards);
   overflow-y: auto;
   overflow-x: hidden;
@@ -91,6 +86,10 @@
   font-weight: normal;
   font-size: smaller;
   font-family: 'spaceMono';
+  padding: 10px;
+  padding-top: 1%;
+  margin: auto;
+  text-justify: auto;
 }
 
 .image-big{
@@ -116,7 +115,7 @@
 
 .pokedex{
   margin-left: 1%;
-  height:  70vh;
+  height:  99%;
   width: 46vw;
   background: var(--pokedex);
   display: flex;
@@ -147,7 +146,7 @@
   justify-items: center;
   text-align: center;
   border-color: var(--pattern);
-  color: black;
+  color: var(--black);
   box-shadow: 0 0 40px 40px var(--pattern) inset, 0 0 0 0 var(--pattern);
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
@@ -174,7 +173,7 @@
 }
 
 .scrollbar-pattern::-webkit-scrollbar-thumb{
-	background-color: black;
+	background-color: var(--black);
 	border: 2px solid var(--pattern);
   border-radius: 10px;
 }
@@ -207,6 +206,7 @@
   }
 
   .main{
+    height: 160vh;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -220,9 +220,5 @@
   .pokedex{
     height: 70vh;
     width: 95%;
-  }
-
-  .baseboard{
-    margin-top: auto;
   }
 }

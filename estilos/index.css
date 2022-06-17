@@ -1,8 +1,9 @@
 @import url(./header.css);
 @import url(./footer.css);
+@import url(./reset.css);
 
 .body{
-  background: black;
+  background: var(--black);
   font-family: 'architectsDaughter';
   font-weight: bold;
   font-size: larger;
@@ -91,9 +92,9 @@
 
 .div-talk{
   border: double;
-  border-color: white;
+  border-color: var(--white);
   font-family: 'spaceMono';
-  color: white;
+  color: var(--white);
   text-shadow: 0.1em 0.05em var(--shadow);
   text-justify: center;
   width: 40vh;
@@ -109,11 +110,11 @@
 
 .div-talk::-webkit-scrollbar{
 	width: 10px;
-	background-color: white;
+	background-color: var(--white);
 }
 
 .div-talk::-webkit-scrollbar-thumb{
-	background-color: white;
+	background-color: var(--white);
 	border: 3px solid var(--pattern);
   border-radius: 10px;
 }

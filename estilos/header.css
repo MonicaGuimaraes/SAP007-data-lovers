@@ -1,39 +1,6 @@
-:root{
-  --pokedex: #D63025;
-  --cards: #C4C4C4;
-  --shadow: rgba(0, 0, 0, 0.527);
-  --line: rgba(0, 0, 0, .05);
-  --pattern: rgba(94, 92, 90, 0.397);
-  --lighteffect: #FFCC00;
-  --shadowred: #d20000;
-}
-
-*{
-  margin: 0;
-  padding: 0;
-  border: none;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
-
-@font-face{
-  font-family: 'architectsDaughter';
-  src: url(../fontes/ArchitectsDaughter-Regular.ttf) format('truetype'),url(../fontes/OFL.txt) format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: 'spaceMono';
-  src: url(../fontes/Space_Mono/SpaceMono-Regular.ttf) format('truetype'),url(../fontes/Space_Mono/OFL.txt) format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .header-menu{
-  height: 80px ;
-  background: white;
+  height: 80px;
+  background: var(--white);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -61,7 +28,7 @@
 }
 
 .link{
-  color: black;
+  color: var(--black);
 }
 
 .btn-mobile{
@@ -80,7 +47,7 @@
     width: 50vh;
     top: 80px;
     right: 0;
-    background: white;
+    background: var(--white);
     box-shadow: -2rem 2rem 2rem var(--shadow);
     transition: .6s;
     height: 0px;

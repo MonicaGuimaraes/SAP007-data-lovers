@@ -52,7 +52,7 @@ export const createArrWithoutRepeat = (arrWithAllStatus) => {
 }
 
 export const percentOfProperty = (arrWithAllStatus, arrWithoutRepeat, arrPokemon) => {
-  const sum = Object.create(null);
+  const sum = {}
   let qtd = 0
   for (let status of arrWithoutRepeat) {
     qtd = 0

@@ -25,7 +25,7 @@
       <ul id="menu" class="menu">
         <li><a href="https://pokemongolive.com/en/" class="link" target="_blank">Pokémon GO <img
               src="./img/pokeball_PNG19.png" width="16"></a></li>
-        <li><a href="./graphics.html" class="link" target="_blank">Graphics
+        <li><a href="./graphics.html" class="link">Graphics
             &#128202;</a></li>
         <li><a href="https://www.pokemon.com/us/app/pokemon-go/" class="link" target="_blank">How to play
             &#127918;</a></li>
@@ -38,6 +38,15 @@
         <h1>Statistics</h1>
         <p>Curious about the percentage of Pokemon in general?</p>
         <p>See some graphs below:</p>
+        <p id="error" class="error"></p>
+        <div class="graph">
+          <p>Pokémon Types</p>
+          <canvas id="myChart"></canvas>
+        </div>
+        <div class="graph">
+          <p>Pokémon Rarity</p>
+          <canvas id="myChart2"></canvas>
+        </div>
       </section>
     </main>
     <footer class="baseboard">
@@ -53,7 +62,8 @@
       </p>
     </footer>
   </div>
-  <script src="graphics.js" type="module"></script>
+  <script src="./js/graphics.js" type="module"></script>
+  <script src="../node_modules/chart.js/dist/chart.js"></script>
 </body>
 
 </html>
