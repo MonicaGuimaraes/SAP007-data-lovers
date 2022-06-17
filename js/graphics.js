@@ -51,13 +51,7 @@ async function graphics(featurePokemon, element) {
 
     const config = {
       type: 'pie',
-      data: data,
-      options: {
-        title: {
-          display: true,
-          text: `Number of Pokémon ${featurePokemon}`
-        }
-      }
+      data: data
     }
 
     new Chart(
