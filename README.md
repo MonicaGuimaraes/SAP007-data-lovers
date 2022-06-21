@@ -12,6 +12,7 @@
 - [Deploy](#Deploy)
 - [Recursos utilizados](#Recursos-utilizados)
 - [Autoras](#Autoras)
+- [Objetivos de Aprendizagem](#objetivos-de-aprendizagem)
 
 # DATA-LOVERS
 
@@ -139,39 +140,20 @@ Após o projeto finalizado, fizemos com que algumas pessoas utilizassem o app we
 
 # Projeto Finalizado
 
+<p>Demonstrações:</p>
+<p align="center">Versão Web</p>
 <p align="center">
-<img src="./docs/img/paginainicial.png" alt="ipad visualização" width="700">
+  <img width="400" height="200" src="./src/assets/readme/teste1.gif"/>
 </p>
-
+<p align="center">Versão Tablet</p>
 <p align="center">
-<img src="./docs/img/pesquisa.png" alt="ipad visualização" width="700">
+  <img width="400" height="300" src="./src/assets/readme/tablet1.gif"/>
+  <img width="200" height="300" src="./src/assets/readme/tablet2.gif"/>
 </p>
-
+<p align="center">Versão Mobile</p>
 <p align="center">
-<img src="./docs/img/filtrarordenar.png" alt="ipad visualização" width="700">
+  <img width="205" height="320" src="./src/assets/readme/mobile.gif"/>
 </p>
-
-<p align="center">
-<img src="./docs/img/indexhtml(iPad).png" alt="ipad visualização" width="300">
-</p>
-
-<p align="center">
-<img src="./docs/img/pokedexhtml(iPad)1.png" alt="ipad visualização" width="300">
-</p>
-
-
-<p align="center">
-<img src="./docs/img/pokedexhtml(iPad).png" alt="ipad visualização" width="300">
-</p>
-
-<p align="center">
-<img src="./docs/img/pokedexhtml(iPhone6_7_8Plus).png" alt="iPhone visualização" width="200">
-</p>
-
-<p align="center">
-<img src="./docs/img/pokedexhtml(iPhone6_7_8Plus)(1).png" alt="iPhone visualização" width="200">
-</p>
-
 
 # Testes Unitários
 Criamos os testes unitários para o arquivo data.js. Este é o arquivo onde as funções de filtragem, ordenação e cálculos agregados se encontram.
@@ -189,7 +171,7 @@ Para utilizar este endereço web (https://monicaguimaraes.github.io/SAP007-data-
 Acessando o endereço web (URL) o usuário já estará apto a utilizar todas as funcionalidades disponíveis.
 
 
-# Recursos utilizados
+# Recursos Utilizados
 
 - ![figma](https://camo.githubusercontent.com/4a1038affbb2653ec140936555b3714ddc322526be8567b489e8423a795dea18/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4669676d612d4632344531453f7374796c653d666f722d7468652d6261646765266c6f676f3d6669676d61266c6f676f436f6c6f723d7768697465)
 - ![js](https://camo.githubusercontent.com/9d07c04bdd98c662d5df9d4e1cc1de8446ffeaebca330feb161f1fb8e1188204/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d626c61636b)
@@ -210,12 +192,12 @@ Acessando o endereço web (URL) o usuário já estará apto a utilizar todas as 
 
 [Trello](https://trello.com/b/ZA9JRYyk/projeto-2-data-lovers-pokemon)
 
-  ## Objetivos de Aprendizagem
+# Objetivos de Aprendizagem Alcançados
 
 ### HTML
 
 - **Uso de HTML semântico**
-  
+
 
 ### CSS
 
@@ -230,7 +212,7 @@ Acessando o endereço web (URL) o usuário já estará apto a utilizar todas as 
 - **Uso de seletores de DOM**
 
 - **Gerenciamento de eventos de DOM**
-  
+
 - **Manipulação dinâmica de DOM**
 
 ### JavaScript

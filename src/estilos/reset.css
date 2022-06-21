@@ -1,4 +1,4 @@
-:root{
+:root {
   --pokedex: #D63025;
   --cards: #C4C4C4;
   --shadow: rgba(0, 0, 0, 0.527);
@@ -11,7 +11,7 @@
   --snow: snow;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   border: none;
@@ -20,16 +20,16 @@
   text-decoration: none;
 }
 
-@font-face{
+@font-face {
   font-family: 'architectsDaughter';
-  src: url(../fontes/ArchitectsDaughter-Regular.ttf) format('truetype'),url(../fontes/OFL.txt) format('opentype');
+  src: url(../fontes/ArchitectsDaughter-Regular.ttf) format('truetype'), url(../fontes/OFL.txt) format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face{
+@font-face {
   font-family: 'spaceMono';
-  src: url(../fontes/Space_Mono/SpaceMono-Regular.ttf) format('truetype'),url(../fontes/Space_Mono/OFL.txt) format('opentype');
+  src: url(../fontes/Space_Mono/SpaceMono-Regular.ttf) format('truetype'), url(../fontes/Space_Mono/OFL.txt) format('opentype');
   font-weight: normal;
   font-style: normal;
 }

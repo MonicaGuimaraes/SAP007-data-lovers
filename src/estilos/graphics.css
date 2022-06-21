@@ -2,7 +2,7 @@
 @import url(./footer.css);
 @import url(./reset.css);
 
-.body{
+.body {
   background: var(--black);
   font-family: 'architectsDaughter';
   font-weight: bold;
@@ -10,7 +10,9 @@
   color: var(--white);
 }
 
-.graph, section, main{
+.graph,
+section,
+main {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -19,7 +21,7 @@
   width: 100%;
 }
 
-.graphs{
+.graphs {
   width: 100%;
 }
 
@@ -27,8 +29,8 @@
   color: var(--pokedex);
 }
 
-@media only screen and (min-width: 768px){
-  .graph{
+@media only screen and (min-width: 768px) {
+  .graph {
     margin-top: 40px;
     width: 70%;
   }

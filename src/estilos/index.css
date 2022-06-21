@@ -2,14 +2,14 @@
 @import url(./footer.css);
 @import url(./reset.css);
 
-.body{
+.body {
   background: var(--black);
   font-family: 'architectsDaughter';
   font-weight: bold;
   font-size: larger;
 }
 
-.section-pokeball{
+.section-pokeball {
   justify-self: center;
   height: 10px;
   display: flex;
@@ -18,7 +18,7 @@
   left: 49%;
 }
 
-.container-main{
+.container-main {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -26,13 +26,13 @@
   height: auto;
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.content{
+.content {
   margin-top: 80px;
   margin-left: 3%;
   display: flex;
@@ -47,21 +47,21 @@
   border-width: 60px;
 }
 
-.section-oak{
+.section-oak {
   height: 55vh;
   display: flex;
   width: 40vh;
   justify-content: center;
 }
 
-.section-btn-content{
+.section-btn-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.pokedex{
+.pokedex {
   height: 10vh;
   margin: 10px;
   border-radius: 10px;
@@ -69,28 +69,29 @@
   justify-self: center;
   width: 40vh;
   cursor: pointer;
-  box-shadow:0 5px 0 var(--shadowred);
+  box-shadow: 0 5px 0 var(--shadowred);
 }
 
-.btn:focus, .btn::-moz-focus-inner{
-  outline:none;
-  border:none;
+.btn:focus,
+.btn::-moz-focus-inner {
+  outline: none;
+  border: none;
 }
 
-.btn{
-  border:none;
+.btn {
+  border: none;
   cursor: pointer;
-  display:inline-block;
+  display: inline-block;
   text-decoration: none;
 }
 
-.pokedex:active{
-  position:relative;
-  top:5px;
-  box-shadow:none;
+.pokedex:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
 }
 
-.div-talk{
+.div-talk {
   border: double;
   border-color: var(--white);
   font-family: 'spaceMono';
@@ -103,24 +104,25 @@
   border-radius: 10px;
   justify-self: center;
 }
-.div-talk::-webkit-scrollbar-track{
-	box-shadow: inset 0 0 6px var(--shadow);
-	background-color: transparent;
+
+.div-talk::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px var(--shadow);
+  background-color: transparent;
 }
 
-.div-talk::-webkit-scrollbar{
-	width: 10px;
-	background-color: var(--white);
+.div-talk::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--white);
 }
 
-.div-talk::-webkit-scrollbar-thumb{
-	background-color: var(--white);
-	border: 3px solid var(--pattern);
+.div-talk::-webkit-scrollbar-thumb {
+  background-color: var(--white);
+  border: 3px solid var(--pattern);
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 768px){
-  .section-pokeball{
+@media only screen and (max-width: 768px) {
+  .section-pokeball {
     display: none;
   }
 }

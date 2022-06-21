@@ -2,31 +2,31 @@
 @import url(./footer.css);
 @import url(./reset.css);
 
-.body{
+.body {
   background: var(--black);
   font-family: 'architectsDaughter';
   font-weight: bold;
   font-size: larger;
 }
 
-.container-main{
+.container-main {
   background-color: var(--black);
   display: flex;
   flex-direction: column;
   height: auto;
 }
 
-.filters{
+.filters {
   background-color: var(--white);
   border-top: 4px solid var(--snow);
   padding: 1%;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
-.filter-options{
+.filter-options {
   font-family: 'spaceMono';
   border-color: var(--black);
   border: solid;
@@ -34,32 +34,32 @@
   text-align: center;
 }
 
-.select{
+.select {
   display: flex;
   flex-direction: row;
 }
 
-.main{
+.main {
   height: 77vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.mysterious-pokemon{
+.mysterious-pokemon {
   width: 90%;
   height: 100%;
   display: flex;
   justify-content: center;
 }
 
-.img-style{
+.img-style {
   border-radius: 5%;
-  border-radius:0px 30px 0px 30px;
+  border-radius: 0px 30px 0px 30px;
 
 }
 
-.big-card{
+.big-card {
   margin-right: 1%;
   width: 46vw;
   height: 99%;
@@ -73,7 +73,7 @@
   padding: 1rem;
 }
 
-.paragraph-big-about{
+.paragraph-big-about {
   width: 80%;
   padding-top: 2%;
   margin: auto;
@@ -82,7 +82,7 @@
   font-weight: normal;
 }
 
-.paragraph-big{
+.paragraph-big {
   font-weight: normal;
   font-size: smaller;
   font-family: 'spaceMono';
@@ -92,13 +92,13 @@
   text-justify: auto;
 }
 
-.image-big{
+.image-big {
   border-style: groove;
   border-image: round;
   border-radius: 10%;
 }
 
-.pattern{
+.pattern {
   background-color: var(--pattern);
   margin: 4px;
   height: auto;
@@ -108,14 +108,14 @@
   border-radius: 3%;
 }
 
-.margin{
+.margin {
   border-radius: 10px;
   margin-top: 15px;
 }
 
-.pokedex{
+.pokedex {
   margin-left: 1%;
-  height:  99%;
+  height: 99%;
   width: 46vw;
   background: var(--pokedex);
   display: flex;
@@ -125,7 +125,7 @@
   overflow-y: auto;
 }
 
-.card-pokemon-section{
+.card-pokemon-section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -134,7 +134,7 @@
   justify-items: center;
 }
 
-.card-pokemon{
+.card-pokemon {
   border-radius: 10px;
   margin: 5px;
   background: var(--cards);
@@ -153,71 +153,71 @@
   cursor: pointer;
 }
 
-.card-pokemon:hover{
+.card-pokemon:hover {
   box-shadow: 0 0 10px 0 var(--lighteffect), 0 0 10px 4px var(--lighteffect);
 }
 
-.paragraph-card{
+.paragraph-card {
   margin-top: 4px;
   font-family: 'spaceMono';
 }
 
-.scrollbar-pattern::-webkit-scrollbar-track{
-	box-shadow: inset 0 0 6px var(--shadow);
-	background-color: transparent;
+.scrollbar-pattern::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px var(--shadow);
+  background-color: transparent;
 }
 
-.scrollbar-pattern::-webkit-scrollbar{
-	width: 10px;
-	background-color: transparent;
+.scrollbar-pattern::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
 }
 
-.scrollbar-pattern::-webkit-scrollbar-thumb{
-	background-color: var(--black);
-	border: 2px solid var(--pattern);
+.scrollbar-pattern::-webkit-scrollbar-thumb {
+  background-color: var(--black);
+  border: 2px solid var(--pattern);
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 768px){
-  .filters{
+@media only screen and (max-width: 768px) {
+  .filters {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .select{
+  .select {
     flex-direction: column;
     justify-content: center;
     justify-items: center;
   }
 
-  .legend{
+  .legend {
     margin: 0;
   }
 }
 
-@media only screen and (max-width: 600px){
-  .container-main{
+@media only screen and (max-width: 600px) {
+  .container-main {
     display: flex;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
     justify-content: center;
   }
 
-  .main{
+  .main {
     height: 160vh;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
   }
 
-  .big-card{
+  .big-card {
     height: 70vh;
     width: 95%;
   }
 
-  .pokedex{
+  .pokedex {
     height: 70vh;
     width: 95%;
   }
