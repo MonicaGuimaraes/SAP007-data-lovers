@@ -3,6 +3,7 @@
 
 - [DATA-LOVERS](#DATA-LOVERS)
 - [Resumo do Projeto](#Resumo-do-Projeto)
+- [Futuro do Projeto](#Futuro-do-Projeto)
 - [Interface do Usuário](#Interface-do-Usuário)
 - [Usuário](#Usuário)
 - [Logo](#Logo)
@@ -30,6 +31,10 @@ Neste projeto trabalhamos com um banco de dados robusto, manipulação de objeto
 Inicialmente, utilizamos as histórias de usuário fornecidas pela Laboratória e com base nesses dados traçamos as estratégias necessárias para melhorar a experiência dos usuários e atender suas expectativas. Após essa etapa, criamos uma série de tarefas para atingir os objetivos determinados pelos usuários.
 
 Criamos também protótipos e nos organizamos através do aplicativo web Trello. Os protótipos foram utilizados para recolher avaliações de possíveis usuários bem como seus feedbacks.
+
+# Futuro do Projeto
+
+Serão acrescentados recursos para melhorar a acessibilidade na aplicação.
 
 # Interface do Usuário
 
