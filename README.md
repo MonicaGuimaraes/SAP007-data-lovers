@@ -3,6 +3,7 @@
 
 - [DATA-LOVERS](#DATA-LOVERS)
 - [Resumo do Projeto](#Resumo-do-Projeto)
+- [Futuro do Projeto](#Futuro-do-Projeto)
 - [Interface do Usuário](#Interface-do-Usuário)
 - [Usuário](#Usuário)
 - [Logo](#Logo)
