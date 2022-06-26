@@ -32,6 +32,10 @@ Inicialmente, utilizamos as histórias de usuário fornecidas pela Laboratória 
 
 Criamos também protótipos e nos organizamos através do aplicativo web Trello. Os protótipos foram utilizados para recolher avaliações de possíveis usuários bem como seus feedbacks.
 
+
+# Futuro do Projeto
+Serão acrescentados recursos para melhorar a acessibilidade na aplicação.
+
 # Interface do Usuário
 
 1. Mostra os dados em uma interface: em cards;
